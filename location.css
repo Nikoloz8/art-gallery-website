@@ -1,0 +1,105 @@
+picture {
+    width: 100%;
+}
+
+.button-container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.button {
+    position: absolute;
+    left: 25%;
+    top: 0;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0 100px 0;
+    background-color: black;
+    width: 100%;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+footer {
+    margin: 0;
+    background-color: #D5966C;
+}
+
+.footer {
+    color: #000000;
+}
+
+.wrapper,
+.footer {
+    width: 1440px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #D5966C;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+}
+
+h4,
+p {
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.location {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.icons-container svg path {
+    fill: #000000;
+}
+
+.icons-container svg:hover path {
+    fill: #ffffff;
+}
+
+.for-column {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 740px) {
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .for-column {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 50px;
+        padding: 0 50px 0 50px;
+    }
+
+    .location {
+        width: 100%;
+    }
+
+    .button {
+        left: 0;
+    }
+
+}
