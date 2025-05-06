@@ -67,8 +67,23 @@ body {
 
 .blackpart {
     width: 50%;
-    background-color: black;
     height: 100%;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 1000%;
+    background-color: black;
+}
+
+.black-and-photo picture,
+.black-and-photo img {
+    position: relative;
+}
+
+.black-and-photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .part1 {
